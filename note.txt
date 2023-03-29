@@ -1,0 +1,43 @@
+SERVER CREATION
+...............
+
+1. npm init
+2. install EXPRESS framework -  npm i express
+
+STEPS
+.....
+
+1. we have to import express
+2. we have to create an app
+3. set a port to run the app
+
+JWT(JSON WEB TOKEN)
+...................
+
+-user authentication
+- jsonwebtoken : library used to generate TOKEN
+- sign() : method to generate token
+- verify(): method used to token verification
+
+TOKEN VERIFICATION
+..................
+
+MiddleWares
+...........
+It is a function which has the capacity to control the http requests in node.
+It is a function with 3 arguments (req,res,next)
+
+i.  Application Specific MiddleWares - it happens before all http methods.
+ii. Router Specific Middlewares - can apply only to the specific requests.
+
+db-server integration
+.....................
+
+mongoose - library used to integrate mongodb and server
+         - npm i mongoose
+
+STEPS
+.....
+
+1.import mongoose
+2.
